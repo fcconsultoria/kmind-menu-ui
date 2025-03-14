@@ -1,0 +1,62 @@
+{
+  "$schema": "https://raw.githubusercontent.com/grafana/grafana/main/docs/sources/developers/plugins/plugin.schema.json",
+  "type": "app",
+  "name": "Kmind",
+  "id": "fcconsultoria-kmindmenuui-app",
+  "info": {
+    "keywords": ["app"],
+    "description": "",
+    "author": {
+      "name": "Fcconsultoria"
+    },
+    "logos": {
+      "small": "img/logo.svg",
+      "large": "img/logo.svg"
+    },
+    "screenshots": [],
+    "version": "%VERSION%",
+    "updated": "%TODAY%"
+  },
+  "includes": [
+    {
+      "type": "page",
+      "name": "AI",
+      "path": "/d/bee1rs58d06wwc/traffic-light",
+      "addToNav": true,
+      "defaultNav": false
+    },
+    {
+      "type": "page",
+      "name": "Kubernetes Cluster",
+      "path": "/d/kube-overview/kubernetes-cluster",
+      "addToNav": true,
+      "defaultNav": false
+    },
+    {
+      "type": "page",
+      "name": "Logs",
+      "path": "d/ae3ec2c4/logs",
+      "addToNav": true,
+      "defaultNav": false
+    },
+    {
+      "type": "page",
+      "name": "Nginx Ingress",
+      "path": "/d/k8s-nginx-ingress-prometheus-ng/nginx-ingress",
+      "addToNav": true,
+      "defaultNav": false
+    },
+    {
+      "type": "page",
+      "icon": "cog",
+      "name": "Volumes",
+      "path": "/d/peR80gTGk/volumes",
+      "role": "Admin",
+      "addToNav": true
+    }
+  ],
+  "dependencies": {
+    "grafanaDependency": ">=10.4.0",
+    "plugins": []
+  }
+}
