@@ -27,8 +27,15 @@
     },
     {
       "type": "page",
-      "name": "Kubernetes Cluster",
-      "path": "/d/kube-overview/kubernetes-cluster",
+      "name": "Infrastructure Observability",
+      "path": "/d/rYdddlPWk/infrastructure-observability",
+      "addToNav": true,
+      "defaultNav": false
+    },
+    {
+      "type": "page",
+      "name": "Application",
+      "path": "/d/beg0656bksmbkf/application",
       "addToNav": true,
       "defaultNav": false
     },
